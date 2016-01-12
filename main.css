@@ -62,13 +62,58 @@
 	color: lightgray;
 	text-align: left;
 }
-.bar {
-	height: 25px;
-	width: 100%;
-	border: solid;
-	background-color:lightgray;
+.bar div{
+	background-color:lightblue;
+	padding-left:1000%;
+	color:black;
+	text-align:right;
 }
-.stats > td{
-	background-color:peru;
-	padding-left:100%;
+.bar td {
+	text-align:left;
+}
+.lightbox {
+	height: 250px;
+	width:500px;
+	border:solid 1px black;
+	border-radius:10px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:20px;
+	background-color:;
+	margin: auto;
+	/*position: fixed;*/
+	top:25%;
+	left:25%;
+	background-color:white;
+}
+.button {
+	height:15px;
+	width:20px;
+	border:solid;
+	border-color:salmon;
+	background-color:salmon;
+	border-radius:10px;
+	text-decoration:none;
+	font-size:20px;
+	padding-right:20px;
+	padding-left:20px;
+	padding-top:3px;
+	padding-bottom:3px;
+	text-align:center;
+}
+.image1{
+	float:left;
+	margin-right:10px;
+}
+.text2{
+	overflow: hidden;
+}
+.image2{
+	float:left;
+	margin-right:10px;
+}
+.image3{
+	float:left;
+	margin-right:10px;
+	margin-bottom:20px;
 }
