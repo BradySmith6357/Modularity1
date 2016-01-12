@@ -1,0 +1,14 @@
+.data-table{
+	width:800px;
+	margin: 20px auto;
+	border-width: 1em;
+	border-bottom: solid;
+	border-top:solid;
+	border-collapse:separate;
+	border-spacing: 10px;
+}
+.header-table{
+	width:800px;
+	margin: 20px auto;
+	border-width: 1em;
+}
